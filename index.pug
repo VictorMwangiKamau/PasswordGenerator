@@ -1,0 +1,19 @@
+html
+  head
+    link(rel="stylesheet" href="./css/all.min.css")
+    link(rel="stylesheet" href="./css/pendeza.min.css")
+    link(rel="stylesheet" href="./css/style.css")
+    script(src="./script/vue.js")
+    script(src="./script/script.js" defer)
+  body
+    div(class="wrapper text-center")
+      h1 Lorem Generator
+      h3 Enter the number of words to generate
+      div(class="d-flex justify-center")
+        input(type="number" name="input" class="d-block")
+      div(class="d-flex justify-center")
+        button(class="large primary") Generate
+          i(class="fas fa-spinner spin ml-2")
+        button(class="large danger")  Reset
+          i(class="fas fa-cog ml-2")
+            
