@@ -1,1 +1,14 @@
-button { width: 15rem !important }
+.text-success {
+  font-size: 4rem;
+  animation: animatePassword 0.8s ease-in;
+  display: none;
+}
+
+@keyframes animatePassword {
+  from {
+    font-size: 2rem;
+  }
+  to {
+    font-size: 4.5rem;
+  }
+}
